@@ -1,0 +1,26 @@
+body {
+    display: flex;
+}
+
+table {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #f0e4c9;
+    width: 90%;
+    height: 90%;
+
+}
+
+thead {
+    background-color: #777676;
+    height: 43px;
+   color: rgb(0, 0, 0);
+}
+
+tr {
+    height: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #bb8217;
+
+}
